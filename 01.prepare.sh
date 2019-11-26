@@ -13,8 +13,8 @@ tar xfvz phyml.tar.gz
 cd phyml-3.3.20190909
 
 sh ./autogen.sh;
-./configure --enable-phyml
-make
+./configure --enable-win --enable-phyml
+mingw32-make
 
 rm -rf ../../release
 mkdir ../../release
